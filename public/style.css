@@ -1,0 +1,32 @@
+.container {
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  border: solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dateLayer {
+  border: 2px solid red;
+  width: 10%;
+}
+
+.userInputLayer {
+  border: solid green;
+  width: 90%;
+}
+
+.userInputLayer > textarea {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 10px;
+}
